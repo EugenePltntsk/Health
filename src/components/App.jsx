@@ -1,5 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 export const App = () => {
   return (
+    <>
+    <Outlet/>
     <div
       style={{
         height: '100vh',
@@ -12,5 +16,6 @@ export const App = () => {
     >
       React homework template
     </div>
+    </>
   );
 };
